@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <main>
+        <section class="flex sm:flex-col md:flex-col lg:flex-col items-center bg-pink-200 ">
+
+            <!-- Header -->
+             <div class="bg-white mt-20 px-10 md:px-40 mx-auto  rounded-3xl">
+                 
+                 <header>
+                     <h1 class="text-center font-bold text-3xl px-4 mt-10 text-purple-800 mx-auto border-b h-12 size-full border-indigo-800">Register</h1>
+                     
+                    </header>
+                    
+                    <form action="" class="w-2/3">
+                        <!-- Form body -->
+                        <div class="my-4">
+                            <input type="text" placeholder="Name" class="p-3 bg-white-300 text-sm border-0 border-b-2 border-grey-dark focus:outline-none focus:border-black" /> 
+                        </div>
+                        
+                        <div class="my-4">
+                            <input type="email" placeholder="Email" class="p-3 bg-white-300 text-sm  border-0 border-b-2 border-grey-dark focus:outline-none focus:border-black"/>
+                        </div>
+
+                        <div class="my-4">
+                            <input type="password" placeholder="Password" class="p-3 bg-white-300 text-sm border-0 border-b-2 border-grey-dark focus:outline-none focus:border-black"/>
+                        </div>
+                        
+                        <div class="my-4">
+                            <input type="password" placeholder="Confirm Password" class="p-3 bg-white-300 text-sm border-0 border-b-2 border-grey-dark focus:outline-none focus:border-black"/>
+                        </div>
+
+                        <button type="submit" class="block md:w-72 w-48 text-white bg-purple-800 p-2 mx-auto uppercase rounded mt-4 font-bold">SIgn Up</button>
+                        
+                        <footer>
+                            <p class="mt-10 mb-8 text-gray-400 ">Have an Account? <a href="#" class="text-blue-400">Login</a></p>
+                        </footer>
+                    </form>
+             </div>
+    </section>
+    </main>
+</body>
+</html>
